@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "c1c2fe5d-32ec-4f61-b387-1eb187c359fa",
+		"name": "MiniVault-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46915421"
+	},
+	"item": [
+		{
+			"name": "generate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"prompt\":\"Hello world!\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generateAsync",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"prompt\":\"Hello world!\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/generateAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"generateAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

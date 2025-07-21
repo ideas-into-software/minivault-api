@@ -1,0 +1,22 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - 11434:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    pull_policy: missing
+    tty: true
+    restart: always
+    networks:
+      - ollama_net
+
+volumes:
+  ollama_data:
+    name: ollama_data
+
+networks:
+  ollama_net:
+    external: false
+    name: ollama_net
