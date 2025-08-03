@@ -78,9 +78,9 @@ Postman collection is also included - please see `MiniVault-API.postman_collecti
 ### Additional information
 
 #### Improvements
-I imagine such AI appliance as a hub of sorts, which can be both interacted with and connected to from different "dumb" devices which can thus become "intelligent".
+I imagine such AI appliance ( product which ["ModelVault"](https://www.modelvault.com/) is building ) as a hub of sorts, which can be both interacted with and connected to from different "dumb" devices which can thus become "intelligent".
 
-Possible improvements include:
+Possible functional improvements include:
  - memory - i.e. ability to have "conversations" which span across multiple interactions with the LLM;
  - multi-modality - i.e. ability to interact not only via text input/output, but also via image and audio;
  - RAG / vector database - e.g. ability to interface with network attached storage / external disk containing documents, which once ingested can be queried;

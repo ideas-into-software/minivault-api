@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>MiniVault API</name>
+    <name>MiniVault API ( sample project for https://www.modelvault.com/ )</name>
     <url>https://github.com/ideas-into-software/minivault-api</url>
 
     <developers>
@@ -146,4 +146,3 @@
     </build>
 
 </project>
-
